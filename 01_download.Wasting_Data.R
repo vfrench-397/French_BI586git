@@ -5,3 +5,4 @@ data <- read_csv("https://raw.githubusercontent.com/daviessw/BI586/master/R_Work
 library(ggplot2)
 boxplot(data$`Average WD (%)`~Transect,data=data, main="not sure what to put here",
         xlab="Transect", ylab="Average wasting disease %")
+title: 'BI586_githw'
